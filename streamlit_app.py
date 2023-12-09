@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title("Streamlit App with 10 Inputs and 1 Output")
+    st.title("Student Placement Predictor")
 
     # Create 10 input fields
     input_values = [st.number_input(f"Input {i+1}", value=0.0) for i in range(10)]
